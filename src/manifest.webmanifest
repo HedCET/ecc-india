@@ -1,0 +1,16 @@
+{
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "512x512",
+      "src": "assets/icons/512.png",
+      "type": "image/png"
+    }
+  ],
+  "name": "Smile",
+  "scope": "/",
+  "short_name": "Smile",
+  "start_url": "/",
+  "theme_color": "#ffffff"
+}
