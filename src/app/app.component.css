@@ -1,0 +1,5 @@
+@media only screen and (max-width: 512px) {
+  #top-nav-left {
+    display: none !important;
+  }
+}
