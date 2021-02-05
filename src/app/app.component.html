@@ -2,34 +2,31 @@
   <div
     fxLayout="row"
     fxLayoutAlign="space-around center"
-    style="background-color: #ffffff; color: #e0e0e0; width: 100%"
+    style="background-color: #ffffff; width: 100%"
   >
     <div
       fxLayout="row"
       fxLayoutAlign="start center"
       id="top-nav-left"
-      style="background-color: #ffffff; color: #e0e0e0; width: 100%"
+      style="width: 100%"
     >
-      <a
+      <!-- <a
         class="mat-body"
-        href="#about"
+        href="#"
         style="color: #616161 !important; cursor: pointer; padding: 2px 8px"
-        >about us</a
-      >
+        target="_blank"
+        >donate</a
+      > -->
     </div>
 
-    <div
-      fxLayout="row"
-      fxLayoutAlign="end center"
-      style="background-color: #ffffff; color: #e0e0e0; width: 100%"
-    >
+    <div fxLayout="row" fxLayoutAlign="end center" style="width: 100%">
       <a
         class="mat-body"
         href="tel:+918086892010"
         style="color: #616161 !important; cursor: pointer; padding: 2px 8px"
         >+918086892010</a
       >
-      <span>|</span>
+      <!-- <span>|</span> -->
       <a
         class="mat-body"
         href="mailto:hi@ecc.charity"
@@ -39,18 +36,39 @@
     </div>
   </div>
 
-  <div fxLayout="column" fxLayoutAlign="center center" style="width: 768px">
+  <div
+    fxLayout="column"
+    fxLayoutAlign="center center"
+    style="padding: 48px 32px"
+  >
+    <div class="mat-headline" style="margin: 0; padding: 0; text-align: center">
+      Charitable Services of ECC India Trust
+    </div>
     <div
-      fxLayout="column"
-      fxLayoutAlign="center center"
-      style="min-height: 96px; padding: 24px; width: 100%"
-    ></div>
+      class="mat-subheading-1"
+      style="color: #9e9e9e; margin: 0; padding: 0; text-align: right"
+    >
+      with
+      <a
+        class="mat-body"
+        href="http://www.ecumenicalccc.org"
+        style="color: #9e9e9e !important; cursor: pointer"
+        target="_blank"
+        >www.ecumenicalccc.org</a
+      >
+    </div>
+  </div>
 
-    <div
-      fxLayout="column"
-      fxLayoutAlign="center center"
-      style="min-height: 96px; padding: 24px; width: 100%"
-    ></div>
+  <div
+    fxLayout="row wrap"
+    fxLayoutAlign="center center"
+    style="padding: 0 16px"
+  >
+    <a href="#" mat-stroked-button>ABOUT US</a>
+    <a href="#" mat-stroked-button>ARCHIVES</a>
+    <a href="#" mat-stroked-button>CONTACT US</a>
+    <a href="#" mat-stroked-button>DONATE</a>
+    <a href="#" mat-stroked-button>FAQ</a>
   </div>
 </div>
 

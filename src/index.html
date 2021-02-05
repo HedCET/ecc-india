@@ -47,5 +47,10 @@
     </noscript>
 
     <app-root></app-root>
+
+    <script>
+      if (window.CSS.paintWorklet)
+        CSS.paintWorklet.addModule("//unpkg.com/extra-sparkles/worklet.js");
+    </script>
   </body>
 </html>

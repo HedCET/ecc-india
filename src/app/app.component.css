@@ -3,3 +3,9 @@
     display: none !important;
   }
 }
+
+a[mat-stroked-button] {
+  background-color: #ffffff;
+  cursor: pointer;
+  margin: 2px;
+}
