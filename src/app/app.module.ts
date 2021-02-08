@@ -9,14 +9,18 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { ServiceWorkerModule } from "@angular/service-worker";
 import { StoreDevtoolsModule } from "@ngrx/store-devtools";
 
+import { AboutUsComponent } from "./about-us.component";
 import { AppComponent } from "./app.component";
+import { AppRoutingModule } from "./app.routing.module";
+import { DonateComponent } from "./donate.component";
 import { environment } from "../environments/environment";
 import { MaterialComponents } from "../material.components";
 
 @NgModule({
   bootstrap: [AppComponent],
-  declarations: [AppComponent],
+  declarations: [AboutUsComponent, AppComponent, DonateComponent],
   imports: [
+    AppRoutingModule,
     BrowserAnimationsModule,
     BrowserModule,
     FlexLayoutModule,
