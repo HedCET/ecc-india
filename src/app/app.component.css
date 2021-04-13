@@ -2,6 +2,10 @@
   #top-nav-left {
     display: none !important;
   }
+
+  #toolbar {
+    padding: 0 !important;
+  }
 }
 
 a[mat-stroked-button] {

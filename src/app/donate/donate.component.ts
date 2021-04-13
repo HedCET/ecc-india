@@ -17,18 +17,13 @@ export class DonateComponent implements OnInit {
   constructor(
     public readonly activatedRoute: ActivatedRoute,
     private readonly router: Router
-  ) {}
+  ) { }
 
   ngOnInit() {
     this.subscription.add(
       this.activatedRoute.params.subscribe(({ id }) => {
         if (isInt(id || "")) this.id = +id;
-        else {
-          const [{ path: id }] = this.activatedRoute.snapshot.url;
-          if (isInt(id || "")) this.id = +id;
-        }
-
-        console.log(this.id);
+        console.log('DonateComponent', this.id);
       })
     );
   }

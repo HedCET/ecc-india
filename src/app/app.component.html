@@ -37,41 +37,43 @@
   </div>
 
   <div
-    fxLayout="column"
-    fxLayoutAlign="center center"
-    style="padding: 48px 32px"
-  >
-    <div class="mat-headline" style="margin: 0; padding: 0; text-align: center">
-      Charitable Services of ECC India Trust
-    </div>
-    <div
-      class="mat-subheading-1"
-      style="color: #9e9e9e; margin: 0; padding: 0; text-align: right"
-    >
-      with
-      <a
-        class="mat-body"
-        href="http://www.ecumenicalccc.org"
-        style="color: #9e9e9e !important; cursor: pointer"
-        target="_blank"
-        >www.ecumenicalccc.org</a
-      >
-    </div>
-  </div>
-
-  <div
     fxLayout="row wrap"
-    fxLayoutAlign="center center"
-    style="padding: 0 16px"
+    fxLayoutAlign="space-between center"
+    id="toolbar"
+    style="padding: 8px 16px; width: 100%"
   >
-    <a href="/about-us" mat-stroked-button>ABOUT US</a>
-    <a href="/archives" mat-stroked-button>ARCHIVES</a>
-    <a href="/contact-us" mat-stroked-button>CONTACT US</a>
-    <a href="/donate" mat-stroked-button>DONATE</a>
-    <a href="/faq" mat-stroked-button>FAQ</a>
+    <div fxLayout="row" fxLayoutAlign="center center" style="padding: 8px 16px">
+      <img
+        src="assets/icons/512.png"
+        style="height: 48px; padding-right: 16px"
+      />
+
+      <div fxLayout="column" fxLayoutAlign="center start">
+        <div class="mat-headline" style="margin: 0; padding: 0">Hope</div>
+
+        <div
+          class="mat-small"
+          style="color: #9e9e9e; margin: 0; margin-top: -4px; padding: 0"
+        >
+          be blessed & be a blessing to others
+        </div>
+      </div>
+    </div>
+
+    <div
+      fxLayout="row wrap"
+      fxLayoutAlign="start center"
+      style="padding: 8px 16px"
+    >
+      <a href="/about-us" mat-stroked-button>ABOUT US</a>
+      <a href="/archives" mat-stroked-button>ARCHIVES</a>
+      <a href="/contact-us" mat-stroked-button>CONTACT US</a>
+      <a href="/donate" mat-stroked-button>DONATE</a>
+      <a href="/faq" mat-stroked-button>FAQ</a>
+    </div>
   </div>
 
-  <div style="padding: 48px 0">
+  <div>
     <router-outlet></router-outlet>
   </div>
 </div>
