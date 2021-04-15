@@ -8,9 +8,9 @@
       "type": "image/png"
     }
   ],
-  "name": "Hope",
+  "name": "eaid",
   "scope": "/",
-  "short_name": "Hope",
+  "short_name": "eaid",
   "start_url": "/",
   "theme_color": "#ffffff"
 }
